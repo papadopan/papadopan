@@ -6,19 +6,6 @@ import Script from "next/script";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-50GH2LEYTT"
-      ></Script>
-      <Script id="googleAnalytics">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){window.dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'G-50GH2LEYTT');
-          `}
-      </Script>
       <Header />
       <Component {...pageProps} />
     </>
