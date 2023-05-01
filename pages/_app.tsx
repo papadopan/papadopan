@@ -10,7 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-50GH2LEYTT"
       ></Script>
-      <Script>
+      <Script id="googleAnalytics">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){window.dataLayer.push(arguments);}
