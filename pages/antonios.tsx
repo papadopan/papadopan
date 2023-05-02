@@ -1,3 +1,3 @@
-const Antonios = () => <div>Antonios</div>;
+const Antonios = () => <div>Antonio</div>;
 
 export default Antonios;
